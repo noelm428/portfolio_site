@@ -18,7 +18,7 @@ const Home = () => {
       <Header />
       <h1 style={{ flex: 1, backgroundColor: "#888888", margin: 20 }}>
         {" "}
-        LOL containuous intergration!!{" "}
+        LOL containuous intergration!!!{" "}
       </h1>
 
       {
