@@ -16,6 +16,10 @@ const Home = () => {
     <>
       <NavBar />
       <Header />
+      <h1 style={{ flex: 1, backgroundColor: "#888888", margin: 20 }}>
+        {" "}
+        LOL containuous intergration{" "}
+      </h1>
 
       {
         <Particles
