@@ -138,7 +138,7 @@ const Portfolio = () => {
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   A simple app that helps catalog your plant collection. fully
-                  crud app, using ejs, node, mongoose, and more.
+                  crud app, using ejs, node, mongoose, and more!!!!!!
                 </Typography>
               </CardContent>
             </CardActionArea>
