@@ -54,7 +54,7 @@ const Portfolio = () => {
                   jokes. This app is meant to supply you with a near infinite
                   amount of chuck Norris jokes or at least a deceptively
                   infinite amount. I used html, css, javascript and json for
-                  this application. All you have to do is click !
+                  this application. All you have to do is click!
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -138,7 +138,7 @@ const Portfolio = () => {
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   A simple app that helps catalog your plant collection. fully
-                  crud app, using ejs, node, mongoose, and more!!!!!!
+                  crud app, using ejs, node, mongoose, and more.
                 </Typography>
               </CardContent>
             </CardActionArea>

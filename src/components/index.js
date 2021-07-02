@@ -29,7 +29,7 @@ const Home = () => {
                 },
               },
               shape: {
-                type: "star",
+                type: "circle",
                 strole: {
                   width: 1,
                   color: "tomato",
