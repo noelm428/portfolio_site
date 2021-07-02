@@ -49,10 +49,12 @@ const Portfolio = () => {
                   Klicking it Chuck Norris
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Optio ea dolore repellat vitae assumenda id sunt recusandae
-                  ipsam atque mollitia, minima, soluta sint modi doloribus
-                  qualias! Sunt, pariatur necessitatibus.
+                  Klicking it with Chuck Norris is an app which implements a
+                  carousel and a third party api using random Chuck Norris
+                  jokes. This app is meant to supply you with a near infinite
+                  amount of chuck Norris jokes or at least a deceptively
+                  infinite amount. I used html, css, javascript and json for
+                  this application. All you have to do is click !
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -91,10 +93,11 @@ const Portfolio = () => {
                   Spindle and Yarn
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Optio ea dolore repellat vitae assumenda id sunt recusandae
-                  ipsam atque mollitia, minima, soluta sint modi doloribus
-                  qualias! Sunt, pariatur necessitatibus.
+                  Spindle & Yarn is a trendy online store. Browse through our
+                  Men's and Women's section, for style inspiration. In our
+                  thrift section feel free to add and remove items as you would
+                  in a brick and mortar thrift store you can also adjust them as
+                  you see fit.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -134,10 +137,8 @@ const Portfolio = () => {
                   Plantsman
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Optio ea dolore repellat vitae assumenda id sunt recusandae
-                  ipsam atque mollitia, minima, soluta sint modi doloribus
-                  qualias! Sunt, pariatur necessitatibus.
+                  A simple app that helps catalog your plant collection. fully
+                  crud app, using ejs, node, mongoose, and more.
                 </Typography>
               </CardContent>
             </CardActionArea>
