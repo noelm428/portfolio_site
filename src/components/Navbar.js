@@ -24,7 +24,7 @@ import {
   Apps,
   ContactMail,
 } from "@material-ui/icons";
-import avatar from "../avatar-2.png";
+import avatar from "../avatar.png";
 
 // CSS STYLES
 
@@ -52,8 +52,8 @@ const menuItems = [
   },
   // {
   //   listIcon: <AssignmentInd />,
-  //   listText: "Resume",
-  //   listPath: "/resume",
+  //   listText: "About",
+  //   listPath: "/About",
   // },
   {
     listIcon: <Apps />,

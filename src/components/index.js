@@ -22,7 +22,7 @@ const Home = () => {
           params={{
             particles: {
               number: {
-                value: 45,
+                value: 50,
                 density: {
                   enable: false,
                   value_area: 900,
@@ -46,13 +46,32 @@ const Home = () => {
                 },
               },
               opacity: {
-                value: 1,
+                value: 0.5,
                 random: true,
                 anim: {
                   enable: true,
                   speed: 1,
                   opacity_min: 0.1,
                   sync: true,
+                },
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+                onclick: {
+                  enable: true,
+                  mode: "push",
+                },
+              },
+
+              modes: {
+                repulse: {
+                  distance: 50,
+                  duration: 0.4,
                 },
               },
             },

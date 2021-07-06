@@ -2,15 +2,15 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Avatar, Grid, Box } from "@material-ui/core";
 import Typed from "react-typed";
-import avatar from "../avatar-2.png";
+import avatar from "../avatar.png";
 
 //CSS STYLES
 const useStyles = makeStyles((theme) => ({
   avatar: {
-    width: theme.spacing(15),
-    height: theme.spacing(15),
+    width: theme.spacing(25),
+    height: theme.spacing(25),
     margin: theme.spacing(1),
-    opacity: "0.7",
+    opacity: ".8",
   },
   title: {
     color: "tomato",
