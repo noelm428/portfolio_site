@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/styles";
 import { BottomNavigation, BottomNavigationAction } from "@material-ui/core";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import FormatAlignJustifyOutlinedIcon from "@material-ui/icons/FormatAlignJustifyOutlined";
 const useStyles = makeStyles({
   root: {
     "& .MuiBottomNavigationAction-root": {
@@ -22,6 +23,13 @@ const Footer = () => {
   const classes = useStyles();
   return (
     <BottomNavigation width="auto" style={{ background: "#222" }}>
+      <BottomNavigationAction
+        className={classes.root}
+        style={{ padding: 0 }}
+        icon={<FormatAlignJustifyOutlinedIcon />}
+        href=""
+        target="_blank"
+      />
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}

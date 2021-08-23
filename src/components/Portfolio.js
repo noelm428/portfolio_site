@@ -15,6 +15,7 @@ import Navbar from "./Navbar";
 import project1 from "../project1.jpg";
 import project2 from "../project2.jpg";
 import project3 from "../project3.jpg";
+import project4 from "../project4.jpg";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -155,6 +156,46 @@ const Portfolio = () => {
                 size="small"
                 color="primary"
                 href="https://plantsman.herokuapp.com/plants"
+                target="_blank"
+              >
+                Live demo
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        {/* Project 4 */}
+
+        <Grid item xs={12} sm={8} md={6}>
+          <Card className={classes.cardContainer}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Project 3"
+                height="240"
+                image={project4}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  Calculator
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  A Calculator made with html,css and javascript
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/noelm428/calculator"
+                target="_blank"
+              >
+                GitHub
+              </Button>
+              <Button
+                size="small"
+                color="primary"
+                href="https://noelm428.github.io/calculator/"
                 target="_blank"
               >
                 Live demo
